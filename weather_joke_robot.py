@@ -27,7 +27,7 @@ urllib.request.install_opener(opener)
 class  BaiduSpeech(object):
     """docstring for  Speech"""
     def __init__(self):
-        """ 你的 app_id AK SK """
+        """ 你的 app_id AK sk """
         self.app_id = 'your'
         self.api_key = 'your'
         self.secret_key = 'your'
